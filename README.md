@@ -11,3 +11,5 @@
 **Website** https://elliemorton.com/constructing-the-moving-image
 
 **Windows Build** Click [Here](https://drive.google.com/drive/folders/1gdbhvc_ARlKfYyuhw-lll-hzAAKEknY7?usp=sharing) to Download and Play!
+
+**Models** If you would like to download the Maya project folder, click [here](https://drive.google.com/drive/folders/12lhlNjoIaBakBPI3Ohn9wza0aTJOX9Uf?usp=sharing). All models are original!
