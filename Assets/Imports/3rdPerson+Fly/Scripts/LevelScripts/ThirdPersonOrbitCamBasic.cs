@@ -189,7 +189,8 @@ public class ThirdPersonOrbitCamBasic : MonoBehaviour
 		Vector3 direction = checkPos - origin;
 		if (Physics.SphereCast(origin, 0.2f, direction, out RaycastHit hit, direction.magnitude))
 		{
-			if(hit.transform != player && hit.transform != transform && !hit.transform.GetComponent<Collider>().isTrigger)
+			// if(hit.transform != player && hit.transform != transform && !hit.transform.GetComponent<Collider>().isTrigger)
+			if(hit.transform != player && hit.transform != transform && !hit.collider)
 			{
 				return false;
 			}
