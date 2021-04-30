@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class InstructionController : MonoBehaviour
@@ -17,7 +18,7 @@ public class InstructionController : MonoBehaviour
     public Button prevButton;
     public Button startButton;
     private int numRevealed;
-    
+
     void Start()
     {
         page1.gameObject.SetActive(true);
@@ -88,6 +89,6 @@ public class InstructionController : MonoBehaviour
 
     public void StartGame()
     {
-
+        SceneManager.LoadScene("3rdPerson+Fly");
     }
 }
